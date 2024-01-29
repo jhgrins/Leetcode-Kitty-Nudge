@@ -4,9 +4,9 @@
     "description": "A Modern Web App Template",
     "scripts": {
         "start": "vite",
-        "build": "vite build"
+        "build": "vite build && cp manifest.json dist && cp -r images dist && cp background.js dist"
     },
-    "author": "Max Rosoff",
+    "author": "Josette Grinslade",
     "license": "MIT",
     "dependencies": {
         "@emotion/react": "^11.11.0",
