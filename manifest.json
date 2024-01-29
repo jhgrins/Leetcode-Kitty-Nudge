@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Leetcode Kitty Nudge",
+    "description": "Get motivated to do Leetcode problems with cat facts!",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "images/cat.png",
+        "default_title": "Click Me for Motivation"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions":[
+        "storage"
+    ]
+  }
